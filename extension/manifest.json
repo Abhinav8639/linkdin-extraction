@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": " Profile Fetcher",
+  "version": "1.0",
+  "description": "Fetches LinkedIn profile data and sends it to the backend",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": ["https://www.linkedin.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
